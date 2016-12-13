@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lenna.jpg</file>
+        <file>icon.jpg</file>
+    </qresource>
+</RCC>

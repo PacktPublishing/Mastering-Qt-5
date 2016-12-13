@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/album-add.png</file>
+        <file>icons/album-delete.png</file>
+        <file>icons/album-edit.png</file>
+        <file>icons/back-to-gallery.png</file>
+        <file>icons/photo-add.png</file>
+        <file>icons/photo-delete.png</file>
+        <file>icons/photo-next.png</file>
+        <file>icons/photo-previous.png</file>
+    </qresource>
+</RCC>

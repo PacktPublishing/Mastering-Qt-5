@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SnakePart.qml</file>
+        <file>engine.js</file>
+        <file>Wall.qml</file>
+        <file>Apple.qml</file>
+        <file>GameEntity.qml</file>
+        <file>GameArea.qml</file>
+        <file>factory.js</file>
+        <file>board.js</file>
+        <file>GameOverItem.qml</file>
+        <file>OverlayItem.qml</file>
+        <file>images/glowdot.png</file>
+        <file>shaders/gl3/grass.frag</file>
+        <file>shaders/gl3/grass.vert</file>
+        <file>shaders/es2/grass.frag</file>
+        <file>shaders/es2/grass.vert</file>
+        <file>models/apple.obj</file>
+        <file>models/apple-texture.png</file>
+        <file>Background.qml</file>
+        <file>images/grass.jpg</file>
+        <file>MaterialBackground.qml</file>
+    </qresource>
+</RCC>

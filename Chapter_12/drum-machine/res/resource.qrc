@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sounds/crash.wav</file>
+        <file>sounds/hihat.wav</file>
+        <file>sounds/kick.wav</file>
+        <file>sounds/snare.wav</file>
+        <file>icons/play.png</file>
+        <file>icons/record.png</file>
+        <file>icons/stop.png</file>
+    </qresource>
+</RCC>
