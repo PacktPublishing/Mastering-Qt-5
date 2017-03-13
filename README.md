@@ -1,5 +1,5 @@
 # Mastering Qt 5
-This is the code repository for the book [Mastering Qt 5](https://www.packtpub.com/application-development/mastering-qt-5?utm_source=github&utm_medium=repository&utm_campaign=9781786467126), published by [Packt](www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish. There are two main code repositories:
+This is the code repository for the book [Mastering Qt 5](https://www.packtpub.com/application-development/mastering-qt-5?utm_source=github&utm_medium=repository&utm_campaign=9781786467126), published by [Packt](https://www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish. There are two main code repositories:
 * [PacktPublishing/Mastering-Qt-5](https://github.com/PacktPublishing/Mastering-Qt-5): created by the book publisher
 * [neuronalmotion/Mastering-Qt-5](https://github.com/neuronalmotion/Mastering-Qt-5): maintained by the book authors
 
