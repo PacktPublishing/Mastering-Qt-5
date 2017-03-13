@@ -3,6 +3,8 @@ This is the code repository for the book [Mastering Qt 5](https://www.packtpub.c
 * [PacktPublishing/Mastering-Qt-5](https://github.com/PacktPublishing/Mastering-Qt-5): created by the book publisher
 * [neuronalmotion/Mastering-Qt-5](https://github.com/neuronalmotion/Mastering-Qt-5): maintained by the book authors
 
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/enhance/readme/media/mastering_qt_5_cover.jpg?raw=true" width="300" height="370"></p>
+
 ## Authors
 [Guillaume Lazar](https://github.com/orgs/neuronalmotion/people/GuillaumeLazar) and [Robin Penea](https://github.com/orgs/neuronalmotion/people/synapticvoid) are software engineers living near Paris in France. They founded NeuronalMotion together in 2014 to implement their vision of entrepreneurship and project development. They aim to achieve a self-organized company. More information is available at www.neuronalmotion.com.
 
@@ -22,48 +24,62 @@ Here is a summary of the covered topics:
 ## Chapters
 ### Chapter 1, Get Your Qt Feet Wet
 Lays the fundamentals of Qt and refreshes your memory with a todo application. This chapter covers the Qt project structure, how to use the designer, basic principles of the signals and slots mechanism, and introduces new features of C++14.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_01_09.png?raw=true"></p>
 
 ### Chapter 2, Discovering QMake Secrets
 Takes a deep dive in the heart of the Qt compilation system: qmake. This chapter will help you understand how it works, how to use it, and how you can structure a Qt application with platform-specific code by designing a system monitoring application.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_02_05.png?raw=true"></p>
 
 ### Chapter 3, Dividing Your Project and Ruling Your Code 
 Analyzes the Qt model/view architecture and how a project can be organized by developing a custom library with the core logic of the application. The project example is a persistent gallery application.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_03_01.png?raw=true"></p>
 
 ### Chapter 4, Conquering the Desktop UI
 Studies the UI perspective of the model/view architecture with a Qt Widget application relying on the library completed in the previous chapter.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_04_09.png?raw=true"></p>
 
 ### Chapter 5, Dominating the Mobile UI
 Adds the missing part of the gallery application with the mobile version (Android and iOS); the chapter covers it with the use of QML, Qt Quick controls, and QML / C++ interactions.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_05_09.png?raw=true"></p>
 
 ### Chapter 6, Even Qt Deserves a Slice of Raspberry Pi
 Continues to the road on Qt Quick application with the Qt 3D perspective. This chapter covers how to build a 3D snake game
 targeted at the Raspberry Pi.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_06_12.png?raw=true"></p>
 
 ### Chapter 7, Third-Party Libraries Without a Headache
 Covers how a third-party library can be integrated in a Qt project. OpenCV will be integrated with an image filter application that also provides a custom QDesigner plugin.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_07_06.png?raw=true"></p>
 
 ### Chapter 8, Animations, It’s Alive, Alive!
 Extends the image filter application by adding animations and the ability to distribute a custom SDK to let other developers add their own filters.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_08_03.png?raw=true"></p>
 
 ### Chapter 9, Keeping Your Sanity with Multithreading
 Investigates the multithreading facilities provided by Qt by building a multithreaded Mandelbrot fractal drawing application.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_09_04.png?raw=true"></p>
 
 ### Chapter 10, Need IPC? Get Your Minions to Work
 Broadens the Mandelbrot fractal application by moving the calculation to other processes and managing the communication
 using sockets.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_10_04.png?raw=true"></p>
 
 ### Chapter 11, Having Fun with Serialization
 Covers multiple serialization formats (JSON, XML, and binary) inside a drum machine application in which you can record and load sound loops.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_11_04.png?raw=true"></p>
 
 ### Chapter 12, You Shall (Not) Pass with QTest
-Adds tests to the drum machine application and studies how the Qt Test frameworks can be used to make unit tests, benchmarking, and GUI events simulation
+Adds tests to the drum machine application and studies how the Qt Test frameworks can be used to make unit tests, benchmarking, and GUI events simulation.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_12_01.png?raw=true"></p>
 
 ### Chapter 13, All Packed and Ready to Deploy
 Gives insights into how to package an application on all desktop OSes (Windows, Linux, and Mac OS) and mobile platforms
 (Android and iOS).
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_13_05.png?raw=true"></p>
 
 ### Chapter 14, Qt Hat Tips and Tricks
 Gathers some tips and tricks to develop with Qt with pleasure. It shows how to manage sessions in Qt Creator, useful Qt Creator keyboard shortcuts, how you can customize the logging, save it to disk, and much more.
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_14_04.png?raw=true"></p>
 
 ## Technical instructions
 * All the code in this book can be compiled and run from Qt Creator using Qt 5.7. You can do it from your preferred OS: Windows, Linux, or Mac OS.
