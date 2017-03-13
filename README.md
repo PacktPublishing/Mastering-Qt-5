@@ -21,7 +21,12 @@ Here is a summary of the covered topics:
 * Use the Qt Animation framework to display stunning effects
 * Deploy mobile apps with Qt and embedded platforms
 
-## Chapters
+## Technical instructions
+* All the code in this book can be compiled and run from Qt Creator using Qt 5.7. You can do it from your preferred OS: Windows, Linux, or Mac OS.
+* About the mobile-specific chapters, either an Android or an iOS device works, but it is not mandatory (the simulator/emulator can be enough).
+* Chapter 6, Even Qt deserves a slice of Raspberry Pi, offers to build an application running on a Raspberry Pi. Although it is more fun if we can do it with a real Raspberry Pi, it is not necessary to have one to complete the chapter.
+
+## Chapters description
 ### Chapter 1, Get Your Qt Feet Wet
 Lays the fundamentals of Qt and refreshes your memory with a todo application. This chapter covers the Qt project structure, how to use the designer, basic principles of the signals and slots mechanism, and introduces new features of C++14.
 <p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_01_09.png?raw=true"></p>
@@ -80,11 +85,6 @@ Gives insights into how to package an application on all desktop OSes (Windows, 
 ### Chapter 14, Qt Hat Tips and Tricks
 Gathers some tips and tricks to develop with Qt with pleasure. It shows how to manage sessions in Qt Creator, useful Qt Creator keyboard shortcuts, how you can customize the logging, save it to disk, and much more.
 <p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_14_04.png?raw=true"></p>
-
-## Technical instructions
-* All the code in this book can be compiled and run from Qt Creator using Qt 5.7. You can do it from your preferred OS: Windows, Linux, or Mac OS.
-* About the mobile-specific chapters, either an Android or an iOS device works, but it is not mandatory (the simulator/emulator can be enough).
-* Chapter 6, Even Qt deserves a slice of Raspberry Pi, offers to build an application running on a Raspberry Pi. Although it is more fun if we can do it with a real Raspberry Pi, it is not necessary to have one to complete the chapter.
 
 ## Other Qt books of the same publisher
 * [Application Development with Qt Creator - Second Edition](https://www.packtpub.com/application-development/application-development-qt-creator-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784398675)
