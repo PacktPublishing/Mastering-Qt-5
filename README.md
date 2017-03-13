@@ -3,7 +3,7 @@ This is the code repository for the book [Mastering Qt 5](https://www.packtpub.c
 * [PacktPublishing/Mastering-Qt-5](https://github.com/PacktPublishing/Mastering-Qt-5): created by the book publisher
 * [neuronalmotion/Mastering-Qt-5](https://github.com/neuronalmotion/Mastering-Qt-5): maintained by the book authors
 
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/enhance/readme/media/mastering_qt_5_cover.jpg?raw=true" width="300" height="370"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/mastering_qt_5_cover.jpg?raw=true" width="300" height="370"></p>
 
 ## Authors
 [Guillaume Lazar](https://github.com/orgs/neuronalmotion/people/GuillaumeLazar) and [Robin Penea](https://github.com/orgs/neuronalmotion/people/synapticvoid) are software engineers living near Paris in France. They founded NeuronalMotion together in 2014 to implement their vision of entrepreneurship and project development. They aim to achieve a self-organized company. More information is available at www.neuronalmotion.com.
