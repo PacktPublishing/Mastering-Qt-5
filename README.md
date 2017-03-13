@@ -28,11 +28,11 @@ Lays the fundamentals of Qt and refreshes your memory with a todo application. T
 
 ### Chapter 2, Discovering QMake Secrets
 Takes a deep dive in the heart of the Qt compilation system: qmake. This chapter will help you understand how it works, how to use it, and how you can structure a Qt application with platform-specific code by designing a system monitoring application.
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_02_05.png?raw=true"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_02_05.png?raw=true" width="729" height="501"></p>
 
 ### Chapter 3, Dividing Your Project and Ruling Your Code 
 Analyzes the Qt model/view architecture and how a project can be organized by developing a custom library with the core logic of the application. The project example is a persistent gallery application.
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_03_01.png?raw=true"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_03_01.png?raw=true" width="729" height="194"></p>
 
 ### Chapter 4, Conquering the Desktop UI
 Studies the UI perspective of the model/view architecture with a Qt Widget application relying on the library completed in the previous chapter.
@@ -40,12 +40,12 @@ Studies the UI perspective of the model/view architecture with a Qt Widget appli
 
 ### Chapter 5, Dominating the Mobile UI
 Adds the missing part of the gallery application with the mobile version (Android and iOS); the chapter covers it with the use of QML, Qt Quick controls, and QML / C++ interactions.
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_05_09.png?raw=true"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_05_09.png?raw=true" width="729" height="583"></p>
 
 ### Chapter 6, Even Qt Deserves a Slice of Raspberry Pi
 Continues to the road on Qt Quick application with the Qt 3D perspective. This chapter covers how to build a 3D snake game
 targeted at the Raspberry Pi.
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_06_12.png?raw=true"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_06_12.png?raw=true" width="729" height="457"></p>
 
 ### Chapter 7, Third-Party Libraries Without a Headache
 Covers how a third-party library can be integrated in a Qt project. OpenCV will be integrated with an image filter application that also provides a custom QDesigner plugin.
@@ -57,7 +57,7 @@ Extends the image filter application by adding animations and the ability to dis
 
 ### Chapter 9, Keeping Your Sanity with Multithreading
 Investigates the multithreading facilities provided by Qt by building a multithreaded Mandelbrot fractal drawing application.
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_09_04.png?raw=true"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_09_04.png?raw=true" width="729" height="574"></p>
 
 ### Chapter 10, Need IPC? Get Your Minions to Work
 Broadens the Mandelbrot fractal application by moving the calculation to other processes and managing the communication
@@ -70,7 +70,7 @@ Covers multiple serialization formats (JSON, XML, and binary) inside a drum mach
 
 ### Chapter 12, You Shall (Not) Pass with QTest
 Adds tests to the drum machine application and studies how the Qt Test frameworks can be used to make unit tests, benchmarking, and GUI events simulation.
-<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_12_01.png?raw=true"></p>
+<p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/B05566_12_01.png?raw=true" width="729" height="191"></p>
 
 ### Chapter 13, All Packed and Ready to Deploy
 Gives insights into how to package an application on all desktop OSes (Windows, Linux, and Mac OS) and mobile platforms
