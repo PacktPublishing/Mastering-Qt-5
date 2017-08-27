@@ -51,8 +51,8 @@ Official Packt errata page is https://www.packtpub.com/books/content/support/256
 
 ### Chapter 6
 * Qt3D broken API
-  * Due to some changes and bugs of the Qt3D module, the 3D part of this project is broken but the QML and Raspberry Pi parts are still valuable.
-   * You can compile and run the application fi you remove all the "diffuse" properties of the "DiffuseMapMaterial" of the .qml files
+  * Due to some changes and bugs of the Qt3D module, the 3D part of this project is broken but the QML and Raspberry Pi parts are still valuable
+   * You can compile and run the application if you remove all the "DiffuseMapMaterial -> diffuse" properties of the .qml files
    * Check this [issue](https://github.com/neuronalmotion/Mastering-Qt-5/issues/7)
 
 
