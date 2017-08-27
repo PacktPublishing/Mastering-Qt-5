@@ -43,6 +43,12 @@ Official Packt errata page is https://www.packtpub.com/books/content/support/256
 * Run the application too soon, page 65 (paper book)
   * "If you run the pplication, you should see something like this", in fact you can't run the application at this step because CpuWidget::updateSeries() is a pure virual function and we implement the body function at the page 66!
 
+### Chapter 5
+* Cache issue in PictureImageProvider::pictureFromCache(), page 189 (paper book)
+  * Replace "mPicturesCache.contains(pictureSize)" by "mPicturesCache.contains(key)"
+  * Replace "mPicturesCache[pictureSize]" by "mPicturesCache[key]"
+  * Check the updated file [PictureImageProvider.cpp](https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/Chapter_05/gallery-mobile/PictureImageProvider.cpp)
+
 ### Chapter 6
 * Qt3D broken API
   * Due to some changes and bugs of the Qt3D module, the 3D part of this project is broken but the QML and Raspberry Pi parts are still valuable.
