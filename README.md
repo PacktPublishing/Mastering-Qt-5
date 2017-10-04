@@ -26,6 +26,36 @@ Here is a summary of the covered topics:
 * About the mobile-specific chapters, either an Android or an iOS device works, but it is not mandatory (the simulator/emulator can be enough).
 * Chapter 6, Even Qt deserves a slice of Raspberry Pi, offers to build an application running on a Raspberry Pi. Although it is more fun if we can do it with a real Raspberry Pi, it is not necessary to have one to complete the chapter.
 
+## Errata
+Official Packt errata page is https://www.packtpub.com/books/content/support/25651
+
+### Chapter 2
+* Add charts in .pro file, page 49/54/58 (paper book)
+  * Your QT module import should be "QT += core gui charts"
+  * Check the file [ch02-sysinfo.pro](https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/Chapter_02/ch02-sysinfo.pro)
+* The MainWindow must define a QHBoxLayout
+  * The application will crash with no layout in MainWindow
+  * You can update your MainWindow.ui like this [MainWindow.ui](https://github.com/PacktPublishing/Mastering-Qt-5/blob/master/Chapter_02/MainWindow.ui) 
+  * Or you can add "ui->centralWidget->setLayout(new QHBoxLayout());" in the MainWindow constructor
+  * Check this [question](https://stackoverflow.com/questions/42353352/sigsegv-when-adding-widget-in-qt) on StackOverflow
+* CpuWidget typo, page 63 (paper book)
+  * "we have to include the Q_OBJECT macro to allow **CpuWidget**" (not CPUWidget)
+* Run the application too soon, page 65 (paper book)
+  * "If you run the pplication, you should see something like this", in fact you can't run the application at this step because CpuWidget::updateSeries() is a pure virual function and we implement the body function at the page 66!
+
+### Chapter 5
+* Cache issue in PictureImageProvider::pictureFromCache(), page 189 (paper book)
+  * Replace "mPicturesCache.contains(pictureSize)" by "mPicturesCache.contains(key)"
+  * Replace "mPicturesCache[pictureSize]" by "mPicturesCache[key]"
+  * Check the updated file [PictureImageProvider.cpp](https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/Chapter_05/gallery-mobile/PictureImageProvider.cpp)
+
+### Chapter 6
+* Qt3D broken API
+  * Due to some changes and bugs of the Qt3D module, the 3D part of this project is broken but the QML and Raspberry Pi parts are still valuable
+   * You can compile and run the application if you remove all the "DiffuseMapMaterial -> diffuse" properties of the .qml files
+   * Check this [issue](https://github.com/neuronalmotion/Mastering-Qt-5/issues/7)
+
+
 ## Chapters description
 ### Chapter 1, Get Your Qt Feet Wet
 Lays the fundamentals of Qt and refreshes your memory with a todo application. This chapter covers the Qt project structure, how to use the designer, basic principles of the signals and slots mechanism, and introduces new features of C++14.

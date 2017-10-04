@@ -34,7 +34,7 @@ QPixmap* PictureImageProvider::pictureFromCache(const QString& filepath, const Q
                     .join("-");
 
     QPixmap* cachePicture = nullptr;
-    if (!mPicturesCache.contains(pictureSize)) {
+    if (!mPicturesCache.contains(key)) {
         QPixmap originalPicture(filepath);
         if (pictureSize == PICTURE_SIZE_THUMBNAIL) {
             cachePicture = new QPixmap(originalPicture
@@ -46,7 +46,7 @@ QPixmap* PictureImageProvider::pictureFromCache(const QString& filepath, const Q
         }
         mPicturesCache.insert(key, cachePicture);
     } else {
-        cachePicture = mPicturesCache[pictureSize];
+        cachePicture = mPicturesCache[key];
     }
 
     return cachePicture;
