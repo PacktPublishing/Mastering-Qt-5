@@ -23,7 +23,7 @@ GameEntity {
 
     DiffuseMapMaterial {
         id: material
-        diffuse: "qrc:/models/apple-texture.png"
+        diffuse:  TextureLoader { source: "qrc:/models/apple-texture.png" }
     }
 
     components: [material, mesh, transform]

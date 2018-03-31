@@ -36,10 +36,19 @@ Material {
     ]
 
     effect: Effect {
+
+        FilterKey {
+                   id: forward
+                   name: "renderingStyle"
+                   value: "forward"
+               }
+
         techniques: [
             Technique {
+                filterKeys: [forward]
                 graphicsApiFilter {
                     api: GraphicsApiFilter.OpenGL
+                    profile: GraphicsApiFilter.CoreProfile
                     majorVersion: 3
                     minorVersion: 2
                 }
@@ -52,8 +61,10 @@ Material {
                 }
             },
             Technique {
+                filterKeys: [forward]
                 graphicsApiFilter {
                     api: GraphicsApiFilter.OpenGLES
+                    profile: GraphicsApiFilter.CoreProfile
                     majorVersion: 2
                     minorVersion: 0
                 }
