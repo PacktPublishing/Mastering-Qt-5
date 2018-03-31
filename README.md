@@ -1,7 +1,5 @@
 # Mastering Qt 5
-This is the code repository for the book [Mastering Qt 5](https://www.packtpub.com/application-development/mastering-qt-5?utm_source=github&utm_medium=repository&utm_campaign=9781786467126), published by [Packt](https://www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish. There are two main code repositories:
-* [PacktPublishing/Mastering-Qt-5](https://github.com/PacktPublishing/Mastering-Qt-5): created by the book publisher
-* [neuronalmotion/Mastering-Qt-5](https://github.com/neuronalmotion/Mastering-Qt-5): maintained by the book authors
+This is the code repository for the book [Mastering Qt 5](https://www.packtpub.com/application-development/mastering-qt-5?utm_source=github&utm_medium=repository&utm_campaign=9781786467126), published by [Packt](https://www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish.
 
 <p align="center"><img src="https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/media/mastering_qt_5_cover.jpg?raw=true" width="300" height="370"></p>
 
@@ -52,10 +50,9 @@ Official Packt errata page is https://www.packtpub.com/books/content/support/256
   * Check the updated file [PictureImageProvider.cpp](https://github.com/neuronalmotion/Mastering-Qt-5/blob/master/Chapter_05/gallery-mobile/PictureImageProvider.cpp)
 
 ### Chapter 6
-* Qt3D broken API
-  * Due to some changes and bugs of the Qt3D module, the 3D part of this project is broken but the QML and Raspberry Pi parts are still valuable
-   * You can compile and run the application if you remove all the "DiffuseMapMaterial -> diffuse" properties of the .qml files
-   * Check this [issue](https://github.com/neuronalmotion/Mastering-Qt-5/issues/7)
+* Qt3D API instability
+  * Due to some changes of the Qt3D module from Qt 5.7, the code has been updated and tested for Qt 5.10.1
+   * Check this [commit](https://github.com/PacktPublishing/Mastering-Qt-5/commit/06e3493a3c27a2211317f4bdb6e8c40a5c2d9982)
 
 
 ## Chapters description
