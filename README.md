@@ -4,7 +4,7 @@ This is the code repository for the book [Mastering Qt 5](https://www.packtpub.c
 <p align="center"><img src="https://github.com/PacktPublishing/Mastering-Qt-5/blob/master/media/mastering_qt_5_cover.jpg?raw=true" width="300" height="370"></p>
 
 ## Authors
-[Guillaume Lazar](https://github.com/orgs/neuronalmotion/people/GuillaumeLazar) and [Robin Penea](https://github.com/orgs/neuronalmotion/people/synapticvoid) are software engineers living near Paris in France. They founded NeuronalMotion together in 2014 to implement their vision of entrepreneurship and project development. They aim to achieve a self-organized company. More information is available at www.neuronalmotion.com.
+[Guillaume Lazar](https://github.com/GuillaumeLazar) and [Robin Penea](https://github.com/synapticvoid) are software engineers living near Paris in France. They founded NeuronalMotion together in 2014 to implement their vision of entrepreneurship and project development. They aim to achieve a self-organized company.
 
 ## Book description
 We aim to teach the reader to be proficient with Qt mechanisms to resolve real world problems. We put a strong focus on the latest version of C++14 to see how it can fit with a well designed Qt 5 application.
