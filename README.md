@@ -54,6 +54,9 @@ Official Packt errata page is https://www.packtpub.com/books/content/support/256
   * Due to some changes of the Qt3D module from Qt 5.7, the code has been updated and tested for Qt 5.10.1
    * Check this [commit](https://github.com/PacktPublishing/Mastering-Qt-5/commit/06e3493a3c27a2211317f4bdb6e8c40a5c2d9982)
 
+### Chapter 12
+* Executing your tests
+  * Page 435 (ebook) or page 444 (paperbook),The correct include is: #include "testjsonserializer.moc"
 
 ## Chapters description
 ### Chapter 1, Get Your Qt Feet Wet
