@@ -1,7 +1,11 @@
-# Mastering Qt 5
-This is the code repository for the book [Mastering Qt 5](https://www.packtpub.com/application-development/mastering-qt-5?utm_source=github&utm_medium=repository&utm_campaign=9781786467126), published by [Packt](https://www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish.
+# Mastering Qt 5 - First Edition (December 2016)
+This is the code repository for the book [Mastering Qt 5 - First Edition](https://www.packtpub.com/application-development/mastering-qt-5?utm_source=github&utm_medium=repository&utm_campaign=9781786467126), published by [Packt](https://www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish.
 
 <p align="center"><img src="https://github.com/PacktPublishing/Mastering-Qt-5/blob/master/media/mastering_qt_5_cover.jpg?raw=true" width="300" height="370"></p>
+
+## Book editions
+* [Mastering Qt 5 - First Edition](https://github.com/PacktPublishing/Mastering-Qt-5)
+* [Mastering Qt 5 - Second Edition](https://github.com/PacktPublishing/Mastering-Qt-5-Second-Editon)
 
 ## Authors
 [Guillaume Lazar](https://github.com/GuillaumeLazar) and [Robin Penea](https://github.com/synapticvoid) are software engineers living near Paris in France. They founded NeuronalMotion together in 2014 to implement their vision of entrepreneurship and project development. They aim to achieve a self-organized company.
