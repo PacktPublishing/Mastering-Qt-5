@@ -136,6 +136,7 @@ void AlbumWidget::addPictures()
             Picture picture(filename);
             lastModelIndex = mPictureModel->pictureModel()->addPicture(picture);
         }
+        lastModelIndex = mPictureModel->index(lastModelIndex.row(), 0);
         ui->thumbnailListView->setCurrentIndex(lastModelIndex);
     }
 }
